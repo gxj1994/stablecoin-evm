@@ -1,0 +1,335 @@
+{
+  "compiler": {
+    "version": "0.6.12+commit.27d51765"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "adaptedToken",
+        "outputs": [
+          {
+            "internalType": "contract ICeloGasToken",
+            "name": "",
+            "type": "address"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "adapterDecimals",
+        "outputs": [
+          {
+            "internalType": "uint8",
+            "name": "",
+            "type": "uint8"
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "account",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "balanceOf",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "refundRecipient",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "feeRecipient",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "gatewayFeeRecipient",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "communityFund",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "refund",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "tipTxFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "gatewayFee",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "baseTxFee",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "creditGasFees"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "debitGasFees"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "_adaptedToken",
+            "type": "address"
+          },
+          {
+            "internalType": "uint8",
+            "name": "_adapterDecimals",
+            "type": "uint8"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "initializeV1"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "internal_debitedValue",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "internal_downscale",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "internal_upscale",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ]
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "newVmCallerAddress",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "setVmCallerAddress"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "tokenDecimals",
+        "outputs": [
+          {
+            "internalType": "uint8",
+            "name": "",
+            "type": "uint8"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "upscaleFactor",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ]
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {
+        "balanceOf(address)": {
+          "details": "The Celo VM calls balanceOf during its fee calculations on custom currencies to ensure that the holder has enough; since the VM debits and credits upscaled values, it needs to reference upscaled balances as well. See https://github.com/celo-org/celo-blockchain/blob/3808c45addf56cf547581599a1cb059bc4ae5089/core/state_transition.go#L321."
+        },
+        "debitGasFees(address,uint256)": {
+          "details": "This function is called by the Celo protocol when paying for transaction fees in this currency. After the transaction is executed, unused gas is refunded to the sender and credited to the various fee recipients via a call to `creditGasFees`. The events emitted by `creditGasFees` reflect the *net* gas fee payments for the transaction.",
+          "params": {
+            "from": "The address from which to reserve balance.",
+            "value": "The amount of balance to reserve."
+          }
+        }
+      },
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {
+        "balanceOf(address)": {
+          "notice": "Return the balance of the address specified, but this balance is scaled appropriately to the number of decimals on this adapter."
+        },
+        "debitGasFees(address,uint256)": {
+          "notice": "Reserve *adapted* balance for making payments for gas in this FiatToken currency."
+        }
+      },
+      "version": 1
+    }
+  },
+  "settings": {
+    "remappings": [
+      "@ensdomains/=node_modules/@ensdomains/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@solidity-parser/=node_modules/prettier-plugin-solidity/node_modules/@solidity-parser/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat/=node_modules/hardhat/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000000
+    },
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "compilationTarget": {
+      "contracts/test/celo/MockFiatTokenFeeAdapterWithExposedFunctions.sol": "MockFiatTokenFeeAdapterWithExposedFunctions"
+    },
+    "evmVersion": "istanbul",
+    "libraries": {}
+  },
+  "sources": {
+    "contracts/interface/celo/ICeloGasToken.sol": {
+      "keccak256": "0xaa14ad5899ce75e9cdc9b3e0114ffb296b679bf87ab07f076887a99d06a0172b",
+      "urls": [
+        "bzz-raw://a4747bf5cb2f7a2a48362d9a976fe5135f1aecc62779db756323882d722a20a3",
+        "dweb:/ipfs/QmUGj9xckGrwtnSHxVKHfY9VrVgSz1kF5RxuBZHtg1spE9"
+      ],
+      "license": "Apache-2.0"
+    },
+    "contracts/interface/celo/IDecimals.sol": {
+      "keccak256": "0xcdd7b6eab7f758b47e6060897792e390b237b933d2b36934d51f5e3effff9b08",
+      "urls": [
+        "bzz-raw://d2022feaba5cba422ca90fdbfb3e006e6e9a9d9d4cd83a028a9099a24bc41399",
+        "dweb:/ipfs/QmZ1tMqxTyaJ5xC9GDDSPbJHcjqCntX8oU4yqwEEjMWWwE"
+      ],
+      "license": "Apache-2.0"
+    },
+    "contracts/interface/celo/IFiatTokenFeeAdapter.sol": {
+      "keccak256": "0x04cbcdf9ccd7ba042f4b92f62c7d7cc56bf0d363f9e889f042b40db948487bbc",
+      "urls": [
+        "bzz-raw://1145fcc2a75e98e69a9f99dd8f6cf83f2f40ed1a70d63a79c5b7811039bfca1a",
+        "dweb:/ipfs/QmPq4LyCPZX1qL4tCrSy3oSkED2Tboqxts6hrWPL1fzao9"
+      ],
+      "license": "Apache-2.0"
+    },
+    "contracts/test/celo/MockFiatTokenFeeAdapterWithExposedFunctions.sol": {
+      "keccak256": "0x5f4cab853656247d652c187e8c87417268a5b8212045ef8bd2bab885777b4ade",
+      "urls": [
+        "bzz-raw://4454f5766efdbf9b37f1d58f79ff6753bc3c6ac36a6b7d0714f97efdccbfb720",
+        "dweb:/ipfs/QmRqsEa9uTUUnHC2wcdApk7Zfvi1iTXJXknKNsPd9dPG54"
+      ],
+      "license": "Apache-2.0"
+    },
+    "contracts/v2/celo/FiatTokenFeeAdapterV1.sol": {
+      "keccak256": "0x7a7841419b026146a56881701169c85761554f5c96a4ea3a590cbbb4a09188d2",
+      "urls": [
+        "bzz-raw://1a05faa39b46c8ca1a37913a244526b5dcb5dbbf3594b7bab20ed05e6638a499",
+        "dweb:/ipfs/QmfLAZWQY71aFJYcxins7bW9UJhGygzN8jZB5pU867rxwy"
+      ],
+      "license": "Apache-2.0"
+    },
+    "node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "keccak256": "0xcc78a17dd88fa5a2edc60c8489e2f405c0913b377216a5b26b35656b2d0dab52",
+      "urls": [
+        "bzz-raw://526dc85e1f9b9b45830e202568d267d93dde7a4fcccf4ad7798dadcd92304d3c",
+        "dweb:/ipfs/QmaoXMB972J3cSDLtBq3xBo4jLwqD2uzXTwujtSPqkYVhR"
+      ],
+      "license": "MIT"
+    },
+    "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "keccak256": "0x5f02220344881ce43204ae4a6281145a67bc52c2bb1290a791857df3d19d78f5",
+      "urls": [
+        "bzz-raw://24427744bd3e6cb73c17010119af12a318289c0253a4d9acb8576c9fb3797b08",
+        "dweb:/ipfs/QmTLDqpKRBuxGxRAmjgXt9AkXyACW3MtKzi7PYjm5iMfGC"
+      ],
+      "license": "MIT"
+    }
+  },
+  "version": 1
+}

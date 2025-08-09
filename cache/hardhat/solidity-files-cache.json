@@ -1,0 +1,3679 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/interface/IERC1271.sol": {
+      "lastModificationDate": 1754739344356,
+      "contentHash": "41b847fa78452df57d5f1cc347c934d8",
+      "sourceName": "contracts/interface/IERC1271.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IERC1271"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/util/SignatureChecker.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "4c6bdf2cfa03cabfebef896ae99f2fa3",
+      "sourceName": "contracts/util/SignatureChecker.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ECRecover.sol",
+        "../interface/IERC1271.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SignatureChecker"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/util/ECRecover.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "db6f6a375fa080b333a4bc7c5a19aea7",
+      "sourceName": "contracts/util/ECRecover.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ECRecover"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/EIP3009.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "08403381efc07fe22055a3d38332e251",
+      "sourceName": "contracts/v2/EIP3009.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractFiatTokenV2.sol",
+        "./EIP712Domain.sol",
+        "../util/SignatureChecker.sol",
+        "../util/MessageHashUtils.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP3009"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/util/MessageHashUtils.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "1fa2505d8e9f718a79fb6f35551e0b0a",
+      "sourceName": "contracts/util/MessageHashUtils.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MessageHashUtils"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/EIP712Domain.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "43744ded08459f3f177a655fca3e24e6",
+      "sourceName": "contracts/v2/EIP712Domain.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP712Domain"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/AbstractFiatTokenV2.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "277ee1713ae2f2cc32cd13550c304cfc",
+      "sourceName": "contracts/v2/AbstractFiatTokenV2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v1/AbstractFiatTokenV1.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AbstractFiatTokenV2"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v1/AbstractFiatTokenV1.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "de78bd9ac0d130f2e177ffb0287fad67",
+      "sourceName": "contracts/v1/AbstractFiatTokenV1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AbstractFiatTokenV1"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1754739526035,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/FiatTokenV2.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "96dc90d14e70a4d717126f8352e3a2d4",
+      "sourceName": "contracts/v2/FiatTokenV2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v1.1/FiatTokenV1_1.sol",
+        "../util/EIP712.sol",
+        "./EIP3009.sol",
+        "./EIP2612.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV2"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v1.1/FiatTokenV1_1.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "3f1c04631ddefab794552223086aebbd",
+      "sourceName": "contracts/v1.1/FiatTokenV1_1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v1/FiatTokenV1.sol",
+        "./Rescuable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV1_1"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/util/EIP712.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "d5ab340096109e385fa014c7e746975d",
+      "sourceName": "contracts/util/EIP712.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP712"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/EIP2612.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "1e6c9139ed5b97f3cfd4855aed7798f1",
+      "sourceName": "contracts/v2/EIP2612.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AbstractFiatTokenV2.sol",
+        "./EIP712Domain.sol",
+        "../util/MessageHashUtils.sol",
+        "../util/SignatureChecker.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP2612"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v1/FiatTokenV1.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "aaef7c87166464ae5fd99a3f30924557",
+      "sourceName": "contracts/v1/FiatTokenV1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "./AbstractFiatTokenV1.sol",
+        "./Ownable.sol",
+        "./Pausable.sol",
+        "./Blacklistable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV1"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v1.1/Rescuable.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "4eab55a9cef66eb7728ee2399b17891e",
+      "sourceName": "contracts/v1.1/Rescuable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v1/Ownable.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Rescuable"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v1/Ownable.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "3e2f04de08e2f09f90618cfe5ea4ab60",
+      "sourceName": "contracts/v1/Ownable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v1/Blacklistable.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "489719f2a9d7e2d6118629af66f02aa2",
+      "sourceName": "contracts/v1/Blacklistable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Blacklistable"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v1/Pausable.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "1c6833a2be24ab8be3ecf32941ff22aa",
+      "sourceName": "contracts/v1/Pausable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1754739524786,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/node_modules/@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+      "lastModificationDate": 1754739526035,
+      "contentHash": "33e22842646d746e5c4124c2fdc051aa",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeERC20"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/node_modules/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1754739524792,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/upgrader/V2Upgrader.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "8914f026e44364b61281b61196ef76a8",
+      "sourceName": "contracts/v2/upgrader/V2Upgrader.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../FiatTokenV2.sol",
+        "../../v1/FiatTokenProxy.sol",
+        "./helpers/V2UpgraderHelper.sol",
+        "./AbstractV2Upgrader.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "V2Upgrader"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v1/FiatTokenProxy.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "f54620adcfcf35a1abd32b27cdc4baa8",
+      "sourceName": "contracts/v1/FiatTokenProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../upgradeability/AdminUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenProxy"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/upgrader/helpers/V2UpgraderHelper.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "4486b0008f11a8c964a3bfe38388bd85",
+      "sourceName": "contracts/v2/upgrader/helpers/V2UpgraderHelper.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../v1/FiatTokenV1.sol",
+        "./AbstractUpgraderHelper.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "V2UpgraderHelper"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/upgrader/AbstractV2Upgrader.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "000987b8f9ea7152f2908cc4f0160a3f",
+      "sourceName": "contracts/v2/upgrader/AbstractV2Upgrader.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "../../v1/Ownable.sol",
+        "../../v1/FiatTokenProxy.sol",
+        "./helpers/AbstractUpgraderHelper.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AbstractV2Upgrader"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/upgradeability/AdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "96265040e1d6913381a7e5a988480533",
+      "sourceName": "contracts/upgradeability/AdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AdminUpgradeabilityProxy"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/upgradeability/UpgradeabilityProxy.sol": {
+      "lastModificationDate": 1754739344358,
+      "contentHash": "b4d2e2ca203b0d002c74e39b9973cedb",
+      "sourceName": "contracts/upgradeability/UpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "UpgradeabilityProxy"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/upgradeability/Proxy.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "115b41deba5b616d5fd6bb0826528111",
+      "sourceName": "contracts/upgradeability/Proxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/upgrader/helpers/AbstractUpgraderHelper.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "6867a60b2d2c9f5a23f826215c116c2f",
+      "sourceName": "contracts/v2/upgrader/helpers/AbstractUpgraderHelper.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../v1/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AbstractUpgraderHelper"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1754739526035,
+      "contentHash": "8065b340476f61365c076897199425f1",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1754739524792,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/DummyERC20.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "45560db23e08527b9220f7d920ef96de",
+      "sourceName": "contracts/test/DummyERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DummyERC20"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/test/scripts/deploy/TestUtils.sol": {
+      "lastModificationDate": 1754739344363,
+      "contentHash": "7a9a5f5b3c8b8fa30bb52baa6fa70c1a",
+      "sourceName": "test/scripts/deploy/TestUtils.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "forge-std/Test.sol",
+        "../../../contracts/minting/MasterMinter.sol",
+        "../../../contracts/v1/FiatTokenProxy.sol",
+        "../../../contracts/v2/FiatTokenV2_2.sol",
+        "../../../contracts/v2/upgrader/AbstractV2Upgrader.sol",
+        "../../../contracts/v2/celo/FiatTokenCeloV2_2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "TestUtils"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/minting/MasterMinter.sol": {
+      "lastModificationDate": 1754739344356,
+      "contentHash": "caecbbfb9e39afa9bda87168bc959821",
+      "sourceName": "contracts/minting/MasterMinter.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MintController.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MasterMinter"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/FiatTokenV2_2.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "1f176e666de35d4f7bdd548dd8e8d98a",
+      "sourceName": "contracts/v2/FiatTokenV2_2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./EIP712Domain.sol",
+        "../v1/Blacklistable.sol",
+        "../v1/FiatTokenV1.sol",
+        "./FiatTokenV2.sol",
+        "./FiatTokenV2_1.sol",
+        "../util/EIP712.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV2_2"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/celo/FiatTokenCeloV2_2.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "e22d55e657f8f02aebc9a5b8453ea3bc",
+      "sourceName": "contracts/v2/celo/FiatTokenCeloV2_2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../FiatTokenV2_2.sol",
+        "../../interface/celo/ICeloGasToken.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenCeloV2_2"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/Test.sol": {
+      "lastModificationDate": 1754739532436,
+      "contentHash": "15866901137b5670eabf31362523bd28",
+      "sourceName": "forge-std/Test.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./console.sol",
+        "./console2.sol",
+        "./safeconsole.sol",
+        "./StdAssertions.sol",
+        "./StdChains.sol",
+        "./StdCheats.sol",
+        "./StdError.sol",
+        "./StdInvariant.sol",
+        "./StdJson.sol",
+        "./StdMath.sol",
+        "./StdStorage.sol",
+        "./StdStyle.sol",
+        "./StdUtils.sol",
+        "./Vm.sol",
+        "./Base.sol",
+        "ds-test/test.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "Test"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/minting/MintController.sol": {
+      "lastModificationDate": 1754739344356,
+      "contentHash": "53688fa2192cf29df9cc1cbd27764502",
+      "sourceName": "contracts/minting/MintController.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Controller.sol",
+        "./MinterManagementInterface.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MintController"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/minting/Controller.sol": {
+      "lastModificationDate": 1754739344356,
+      "contentHash": "bdadb1f51eed2be68855206e517003ea",
+      "sourceName": "contracts/minting/Controller.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v1/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Controller"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/minting/MinterManagementInterface.sol": {
+      "lastModificationDate": 1754739344356,
+      "contentHash": "5726ceef6e6ede804c0457a0d75dc983",
+      "sourceName": "contracts/minting/MinterManagementInterface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MinterManagementInterface"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/FiatTokenV2_1.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "5ec1772618e3bd3c9714b33e2350cb44",
+      "sourceName": "contracts/v2/FiatTokenV2_1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./FiatTokenV2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenV2_1"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/interface/celo/ICeloGasToken.sol": {
+      "lastModificationDate": 1754739344356,
+      "contentHash": "05000b80b5169af0c24d291c5f75f4ac",
+      "sourceName": "contracts/interface/celo/ICeloGasToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ICeloGasToken"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/console2.sol": {
+      "lastModificationDate": 1754739532437,
+      "contentHash": "491ca717c1915995e78cc361485a3067",
+      "sourceName": "forge-std/console2.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console2"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/console.sol": {
+      "lastModificationDate": 1754739532436,
+      "contentHash": "100b8a33b917da1147740d7ab8b0ded3",
+      "sourceName": "forge-std/console.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/safeconsole.sol": {
+      "lastModificationDate": 1754739532437,
+      "contentHash": "ac3b1bf5a444db5db3656021830258a8",
+      "sourceName": "forge-std/safeconsole.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "safeconsole"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdChains.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "f7ec55b5333e3d0687535fa29695e9c6",
+      "sourceName": "forge-std/StdChains.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Vm.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "StdChains"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdAssertions.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "6cc2858240bcd443debbbf075490e325",
+      "sourceName": "forge-std/StdAssertions.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "ds-test/test.sol",
+        "./StdMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "StdAssertions"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdError.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "64c896e1276a291776e5ea5aecb3870a",
+      "sourceName": "forge-std/StdError.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "stdError"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdStyle.sol": {
+      "lastModificationDate": 1754739532436,
+      "contentHash": "6281165a12aa639705c691fccefd855e",
+      "sourceName": "forge-std/StdStyle.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Vm.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "StdStyle"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdInvariant.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "0a580d6fac69e9d4b6504f747f3c0c24",
+      "sourceName": "forge-std/StdInvariant.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "StdInvariant"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdJson.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "a341308627b7eeab7589534daad58186",
+      "sourceName": "forge-std/StdJson.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Vm.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.9.0"
+      ],
+      "artifacts": [
+        "stdJson"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdCheats.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "7922ae0087a21ee3cdb97137be18c06c",
+      "sourceName": "forge-std/StdCheats.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./StdStorage.sol",
+        "./console2.sol",
+        "./Vm.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "StdCheats",
+        "StdCheatsSafe"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdStorage.sol": {
+      "lastModificationDate": 1754739532436,
+      "contentHash": "abd6f3379e6e2a7979b18abc21aea0c1",
+      "sourceName": "forge-std/StdStorage.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Vm.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "stdStorage",
+        "stdStorageSafe"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdMath.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "9da8f453eba6bb98f3d75bc6822bfb29",
+      "sourceName": "forge-std/StdMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "stdMath"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/StdUtils.sol": {
+      "lastModificationDate": 1754739532436,
+      "contentHash": "2ace460f60242ec59c9310db966aee97",
+      "sourceName": "forge-std/StdUtils.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IMulticall3.sol",
+        "./mocks/MockERC20.sol",
+        "./mocks/MockERC721.sol",
+        "./Vm.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "StdUtils"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/Base.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "ee13c050b1914464f1d3f90cde90204b",
+      "sourceName": "forge-std/Base.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./StdStorage.sol",
+        "./Vm.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "CommonBase",
+        "ScriptBase",
+        "TestBase"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/Vm.sol": {
+      "lastModificationDate": 1754739532436,
+      "contentHash": "c791ff15c3c9d600bd396c7ae4ee836c",
+      "sourceName": "forge-std/Vm.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "Vm",
+        "VmSafe"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/lib/ds-test/src/test.sol": {
+      "lastModificationDate": 1754739533977,
+      "contentHash": "9febff9d09f18af5306669dc276c4c43",
+      "sourceName": "ds-test/test.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "DSTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/interfaces/IMulticall3.sol": {
+      "lastModificationDate": 1754739532437,
+      "contentHash": "7b131ca1ca32ef6378b7b9ad5488b901",
+      "sourceName": "forge-std/interfaces/IMulticall3.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "IMulticall3"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/mocks/MockERC20.sol": {
+      "lastModificationDate": 1754739532437,
+      "contentHash": "9ec848e74c56e40afdd01ac0c873dc3b",
+      "sourceName": "forge-std/mocks/MockERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "MockERC20"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/mocks/MockERC721.sol": {
+      "lastModificationDate": 1754739532437,
+      "contentHash": "b6729ea581dcd9b4238eee9ca4d3bd89",
+      "sourceName": "forge-std/mocks/MockERC721.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC721TokenReceiver",
+        "MockERC721"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/test/scripts/deploy/deploy-master-minter.t.sol": {
+      "lastModificationDate": 1754739344363,
+      "contentHash": "3b56ce51d016485d690e999cbc315349",
+      "sourceName": "test/scripts/deploy/deploy-master-minter.t.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TestUtils.sol",
+        "../../../scripts/deploy/deploy-master-minter.s.sol",
+        "../../../contracts/minting/MasterMinter.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployMasterMinterTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/scripts/deploy/deploy-master-minter.s.sol": {
+      "lastModificationDate": 1754739344361,
+      "contentHash": "adcbc9a7704f0bd2b284abf831261bb3",
+      "sourceName": "scripts/deploy/deploy-master-minter.s.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "forge-std/console.sol",
+        "forge-std/Script.sol",
+        "../../contracts/minting/MasterMinter.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployMasterMinter"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/lib/forge-std/src/Script.sol": {
+      "lastModificationDate": 1754739532435,
+      "contentHash": "ba325c778a7da8a21c2136aa32763c14",
+      "sourceName": "forge-std/Script.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./console.sol",
+        "./console2.sol",
+        "./safeconsole.sol",
+        "./StdChains.sol",
+        "./StdCheats.sol",
+        "./StdJson.sol",
+        "./StdMath.sol",
+        "./StdStorage.sol",
+        "./StdStyle.sol",
+        "./StdUtils.sol",
+        "./Vm.sol",
+        "./Base.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2 <0.9.0"
+      ],
+      "artifacts": [
+        "Script"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/scripts/deploy/celo/deploy-fiat-token-celo.s.sol": {
+      "lastModificationDate": 1754739344361,
+      "contentHash": "782b73e23947b2f0de700f70323e187a",
+      "sourceName": "scripts/deploy/celo/deploy-fiat-token-celo.s.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "forge-std/console.sol",
+        "forge-std/Script.sol",
+        "../DeployImpl.sol",
+        "../../../contracts/v1/FiatTokenProxy.sol",
+        "../../../contracts/v2/celo/FiatTokenCeloV2_2.sol",
+        "../../../contracts/minting/MasterMinter.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployFiatTokenCelo"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/scripts/deploy/DeployImpl.sol": {
+      "lastModificationDate": 1754739344360,
+      "contentHash": "3b13dbb2eff7561da99de02d6b59d4e5",
+      "sourceName": "scripts/deploy/DeployImpl.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../contracts/v2/FiatTokenV2_2.sol",
+        "../../contracts/v2/celo/FiatTokenCeloV2_2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployImpl"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/test/scripts/deploy/celo/deploy-fiat-token-celo.t.sol": {
+      "lastModificationDate": 1754739344363,
+      "contentHash": "ab8d1b246568db73e33937fe8890fd6a",
+      "sourceName": "test/scripts/deploy/celo/deploy-fiat-token-celo.t.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./../TestUtils.sol",
+        "../../../../scripts/deploy/celo/deploy-fiat-token-celo.s.sol",
+        "../../../../contracts/minting/MasterMinter.sol",
+        "../../../../contracts/v1/FiatTokenProxy.sol",
+        "../../../../contracts/v2/celo/FiatTokenCeloV2_2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployFiatTokenCeloTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/scripts/deploy/deploy-impl-and-upgrader.s.sol": {
+      "lastModificationDate": 1754739344361,
+      "contentHash": "e0a379de5f2c23be200c4b97be9d3a27",
+      "sourceName": "scripts/deploy/deploy-impl-and-upgrader.s.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "forge-std/console.sol",
+        "forge-std/Script.sol",
+        "./ScriptUtils.sol",
+        "./DeployImpl.sol",
+        "../../contracts/v1/FiatTokenProxy.sol",
+        "../../contracts/v2/FiatTokenV2_2.sol",
+        "../../contracts/v2/upgrader/V2_2Upgrader.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployImplAndUpgrader"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/upgrader/V2_2Upgrader.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "227c7a58c2c764c661810907bfbf48fe",
+      "sourceName": "contracts/v2/upgrader/V2_2Upgrader.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../FiatTokenV2_2.sol",
+        "../../v1/FiatTokenProxy.sol",
+        "./helpers/V2_2UpgraderHelper.sol",
+        "./AbstractV2Upgrader.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "V2_2Upgrader"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/scripts/deploy/ScriptUtils.sol": {
+      "lastModificationDate": 1754739344360,
+      "contentHash": "79e1c6d7b28fce047aa4ecc14c4fc8f2",
+      "sourceName": "scripts/deploy/ScriptUtils.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "forge-std/Script.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ScriptUtils"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/upgrader/helpers/V2_2UpgraderHelper.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "306030ce90c0ed6b852377729e8757a8",
+      "sourceName": "contracts/v2/upgrader/helpers/V2_2UpgraderHelper.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../../v2/FiatTokenV2_1.sol",
+        "./V2UpgraderHelper.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "V2_2UpgraderHelper"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/test/scripts/deploy/deploy-impl-and-upgrader.t.sol": {
+      "lastModificationDate": 1754739344363,
+      "contentHash": "b9bb8ce90d0237f35ca5faf0c3ea2f51",
+      "sourceName": "test/scripts/deploy/deploy-impl-and-upgrader.t.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TestUtils.sol",
+        "../../../scripts/deploy/deploy-impl-and-upgrader.s.sol",
+        "../../../contracts/v2/FiatTokenV2_2.sol",
+        "../../../contracts/v2/upgrader/V2_2Upgrader.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployImplAndUpgraderTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/scripts/deploy/deploy-fiat-token.s.sol": {
+      "lastModificationDate": 1754739344361,
+      "contentHash": "8261062df77260ba8b4a7372750dc3e5",
+      "sourceName": "scripts/deploy/deploy-fiat-token.s.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "forge-std/console.sol",
+        "forge-std/Script.sol",
+        "./DeployImpl.sol",
+        "../../contracts/v1/FiatTokenProxy.sol",
+        "../../contracts/v2/FiatTokenV2_2.sol",
+        "../../contracts/minting/MasterMinter.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployFiatToken"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/test/scripts/deploy/deploy-fiat-token.t.sol": {
+      "lastModificationDate": 1754739344363,
+      "contentHash": "90ff45336e9d3eca5214452ed2d378af",
+      "sourceName": "test/scripts/deploy/deploy-fiat-token.t.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./TestUtils.sol",
+        "../../../scripts/deploy/deploy-fiat-token.s.sol",
+        "../../../contracts/minting/MasterMinter.sol",
+        "../../../contracts/v1/FiatTokenProxy.sol",
+        "../../../contracts/v2/FiatTokenV2_2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployFiatTokenTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/test/scripts/deploy/celo/deploy-fee-adapter.t.sol": {
+      "lastModificationDate": 1754739344363,
+      "contentHash": "6ca74fab4e7aa35c5f7db46b88d383bc",
+      "sourceName": "test/scripts/deploy/celo/deploy-fee-adapter.t.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./../TestUtils.sol",
+        "../../../../scripts/deploy/deploy-fiat-token.s.sol",
+        "../../../../scripts/deploy/celo/deploy-fee-adapter.s.sol",
+        "../../../../contracts/v1/FiatTokenProxy.sol",
+        "../../../../contracts/v2/FiatTokenV2_2.sol",
+        "../../../../contracts/v2/celo/FiatTokenCeloV2_2.sol",
+        "../../../../contracts/v2/celo/FiatTokenFeeAdapterProxy.sol",
+        "../../../../contracts/v2/celo/FiatTokenFeeAdapterV1.sol",
+        "../../../../contracts/minting/MasterMinter.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployFeeAdapterTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/celo/FiatTokenFeeAdapterProxy.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "cad399931ff65d43c5f9a12b88b4d152",
+      "sourceName": "contracts/v2/celo/FiatTokenFeeAdapterProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../upgradeability/AdminUpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenFeeAdapterProxy"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/celo/FiatTokenFeeAdapterV1.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "ffebb7f0a2fa1769d70d31cdddd76727",
+      "sourceName": "contracts/v2/celo/FiatTokenFeeAdapterV1.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interface/celo/IFiatTokenFeeAdapter.sol",
+        "../../interface/celo/ICeloGasToken.sol",
+        "../../interface/celo/IDecimals.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenFeeAdapterV1"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/scripts/deploy/celo/deploy-fee-adapter.s.sol": {
+      "lastModificationDate": 1754739344361,
+      "contentHash": "663610374c31722404fa1d0acaf2fa33",
+      "sourceName": "scripts/deploy/celo/deploy-fee-adapter.s.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "forge-std/console.sol",
+        "forge-std/Script.sol",
+        "../../../contracts/v2/celo/FiatTokenFeeAdapterProxy.sol",
+        "../../../contracts/v2/celo/FiatTokenFeeAdapterV1.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DeployFeeAdapter"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/interface/celo/IFiatTokenFeeAdapter.sol": {
+      "lastModificationDate": 1754739344356,
+      "contentHash": "3d93be221333b1d248dfdb779993d1e5",
+      "sourceName": "contracts/interface/celo/IFiatTokenFeeAdapter.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IFiatTokenFeeAdapter"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/interface/celo/IDecimals.sol": {
+      "lastModificationDate": 1754739344356,
+      "contentHash": "c581177bc82562e1ac92edf30332294c",
+      "sourceName": "contracts/interface/celo/IDecimals.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IDecimals"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/celo/MockFiatTokenFeeAdapterWithExposedFunctions.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "7ef68b139f4e81765cec411363d2bf5f",
+      "sourceName": "contracts/test/celo/MockFiatTokenFeeAdapterWithExposedFunctions.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../v2/celo/FiatTokenFeeAdapterV1.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MockFiatTokenFeeAdapterWithExposedFunctions"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/upgrader/V2_1Upgrader.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "bd5c367186942864a698fcb9f12bc7ec",
+      "sourceName": "contracts/v2/upgrader/V2_1Upgrader.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "../FiatTokenV2_1.sol",
+        "../../v1/FiatTokenProxy.sol",
+        "./helpers/V2UpgraderHelper.sol",
+        "./AbstractV2Upgrader.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "V2_1Upgrader"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/MessageHashUtilsTest.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "ea6f390846896e0b87ac8f94cc723f85",
+      "sourceName": "contracts/test/MessageHashUtilsTest.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../util/MessageHashUtils.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MessageHashUtilsTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/UpgradedFiatTokenNewFieldsTest.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "82584ef81c2211676431841ba2321918",
+      "sourceName": "contracts/test/UpgradedFiatTokenNewFieldsTest.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v1/FiatTokenV1.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "UpgradedFiatTokenNewFieldsTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/UpgradedFiatTokenNewFieldsNewLogicTest.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "6a82cf66717ed8568721d4f17d9ee82a",
+      "sourceName": "contracts/test/UpgradedFiatTokenNewFieldsNewLogicTest.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v1/FiatTokenV1.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "UpgradedFiatTokenNewFieldsNewLogicTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/EIP712Test.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "25c1a2840571a3fecb5151f963eb075f",
+      "sourceName": "contracts/test/EIP712Test.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../util/EIP712.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "EIP712Test"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/UpgradedFiatTokenV2_2NewFieldsTest.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "62cad7308308dca66f346869c5670c0e",
+      "sourceName": "contracts/test/UpgradedFiatTokenV2_2NewFieldsTest.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v2/FiatTokenV2_2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "UpgradedFiatTokenV2_2NewFieldsTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/MockFiatTokenWithEditableChainId.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "f9aba3bc32e2d58b5a07f0858853768e",
+      "sourceName": "contracts/test/MockFiatTokenWithEditableChainId.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v2/FiatTokenV2_2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MockFiatTokenWithEditableChainId"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/MockFiatTokenWithEditableBalanceAndBlacklistStates.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "6d1875cac2566eb5c9764080ea872a02",
+      "sourceName": "contracts/test/MockFiatTokenWithEditableBalanceAndBlacklistStates.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../v2/FiatTokenV2_2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MockFiatTokenWithEditableBalanceAndBlacklistStates"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/celo/MockFiatTokenCeloWithExposedFunctions.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "5e2c5d89fd86d9a6d8099cd91f630abd",
+      "sourceName": "contracts/test/celo/MockFiatTokenCeloWithExposedFunctions.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../v2/celo/FiatTokenCeloV2_2.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MockFiatTokenCeloWithExposedFunctions"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/MockERC1271Wallet.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "37ce72092064a85a2845bcc862c7ab09",
+      "sourceName": "contracts/test/MockERC1271Wallet.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../util/ECRecover.sol",
+        "../interface/IERC1271.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "MockERC1271Wallet",
+        "MockERC1271WalletReturningBytes32",
+        "MockERC1271WalletWithCustomValidation",
+        "MockStateModifyingERC1271Wallet"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/ECRecoverTest.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "7da57de9ff8279d42f4f0f48ba14cc12",
+      "sourceName": "contracts/test/ECRecoverTest.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../util/ECRecover.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ECRecoverTest"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/ContractThatCallsPublicFunctions.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "31d3088aec6c145a04da4365f53f3d5c",
+      "sourceName": "contracts/test/ContractThatCallsPublicFunctions.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ContractWithPublicFunctions.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ContractThatCallsPublicFunctions"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/ContractWithPublicFunctions.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "c39f1eaf4a48391c42a5ef3ecbcf9502",
+      "sourceName": "contracts/test/ContractWithPublicFunctions.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ContractWithPublicFunctions"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/ContractThatReverts.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "78c08dd8bd6f1529dcc7aa805e662dd0",
+      "sourceName": "contracts/test/ContractThatReverts.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ContractThatReverts"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/test/ContractWithExternalFunctions.sol": {
+      "lastModificationDate": 1754739344357,
+      "contentHash": "3e341243f86b1e790820b7a0caa3bd57",
+      "sourceName": "contracts/test/ContractWithExternalFunctions.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ContractWithExternalFunctions"
+      ]
+    },
+    "/Users/guxiaojiao/codes/vscode/workPlace/stablecoin-evm/contracts/v2/FiatTokenUtil.sol": {
+      "lastModificationDate": 1754739344359,
+      "contentHash": "2edd3e5cdc2849e3696c5a05185ca1c9",
+      "sourceName": "contracts/v2/FiatTokenUtil.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 10000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "FiatTokenUtil"
+      ]
+    }
+  }
+}

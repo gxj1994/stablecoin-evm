@@ -1,0 +1,53 @@
+{
+  "compiler": {
+    "version": "0.6.12+commit.27d51765"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "remappings": [
+      "@ensdomains/=node_modules/@ensdomains/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@solidity-parser/=node_modules/prettier-plugin-solidity/node_modules/@solidity-parser/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat/=node_modules/hardhat/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000000
+    },
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "compilationTarget": {
+      "contracts/util/EIP712.sol": "EIP712"
+    },
+    "evmVersion": "istanbul",
+    "libraries": {}
+  },
+  "sources": {
+    "contracts/util/EIP712.sol": {
+      "keccak256": "0x0bb667288d2164139244dcbe02eee3453dfcdbdd04017a6d6076ca8910be0d57",
+      "urls": [
+        "bzz-raw://5cb904b9abf2a97fd864d483ae46c4868fd06e8f12a307e943b8d9c1f0b5a716",
+        "dweb:/ipfs/QmV6tWPVfm4amdb6xy4nHKb5rwfxAxM13b1ojBQ7FSJBP5"
+      ],
+      "license": "Apache-2.0"
+    }
+  },
+  "version": 1
+}

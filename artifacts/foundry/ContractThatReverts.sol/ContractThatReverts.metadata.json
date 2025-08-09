@@ -1,0 +1,107 @@
+{
+  "compiler": {
+    "version": "0.6.12+commit.27d51765"
+  },
+  "language": "Solidity",
+  "output": {
+    "abi": [
+      {
+        "inputs": [],
+        "stateMutability": "payable",
+        "type": "fallback"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "view",
+        "type": "function",
+        "name": "reason",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "inputs": [],
+        "stateMutability": "pure",
+        "type": "function",
+        "name": "revertNoReason"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "reasonMsg",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "pure",
+        "type": "function",
+        "name": "revertWithReason"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "reason",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function",
+        "name": "setReason"
+      },
+      {
+        "inputs": [],
+        "stateMutability": "payable",
+        "type": "receive"
+      }
+    ],
+    "devdoc": {
+      "kind": "dev",
+      "methods": {},
+      "version": 1
+    },
+    "userdoc": {
+      "kind": "user",
+      "methods": {},
+      "version": 1
+    }
+  },
+  "settings": {
+    "remappings": [
+      "@ensdomains/=node_modules/@ensdomains/",
+      "@openzeppelin/=node_modules/@openzeppelin/",
+      "@solidity-parser/=node_modules/prettier-plugin-solidity/node_modules/@solidity-parser/",
+      "ds-test/=lib/forge-std/lib/ds-test/src/",
+      "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+      "forge-std/=lib/forge-std/src/",
+      "hardhat/=node_modules/hardhat/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 10000000
+    },
+    "metadata": {
+      "bytecodeHash": "ipfs"
+    },
+    "compilationTarget": {
+      "contracts/test/ContractThatReverts.sol": "ContractThatReverts"
+    },
+    "evmVersion": "istanbul",
+    "libraries": {}
+  },
+  "sources": {
+    "contracts/test/ContractThatReverts.sol": {
+      "keccak256": "0x1d91a3723f9635ba42149a88c08bbd618f09119edb4176d6b424f32e71bd41a6",
+      "urls": [
+        "bzz-raw://bca4547d8d43a2b5b0c8cb12c5a8518e5f82c6698c31388ee58dfe15fb27aa48",
+        "dweb:/ipfs/QmbVTLDsUiHjsyy9vaFS6P1pf1nmB2MV16kQEeTcsYmd9c"
+      ],
+      "license": "Apache-2.0"
+    }
+  },
+  "version": 1
+}

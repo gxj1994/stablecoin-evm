@@ -1,11 +1,8 @@
 .idea/
-.env*
 !.env.example
 **/.DS_Store
 
-artifacts/
 broadcast/
-cache/
 @types/generated/
 
 node_modules/
@@ -13,5 +10,3 @@ yarn-error.log
 
 coverage/
 coverage.json
-
-blacklist.*.json
